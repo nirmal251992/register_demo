@@ -50,6 +50,7 @@ class _RegisterState extends State<Register> {
                 SizedBox(width: 20),
                 Expanded(
                   child: TextFormField(
+
                     style: CustomTextStyle.display5(context),
                     controller: lnamecontroller,
                     decoration: Decor.decorText.copyWith(labelText: "Last name"),
