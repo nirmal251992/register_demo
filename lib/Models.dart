@@ -26,3 +26,48 @@ class FirstVoter {
     ];
   }
 }
+class Political {
+  int id;
+  String name;
+
+  Political(this.id, this.name);
+  static List<Political> getCompanies() {
+    return <Political>[
+
+      Political(1, 'BJP'),
+      Political(2, 'INC'),
+      Political(3, 'AAP'),
+      Political(4, 'BSP'),
+    ];
+  }
+}
+class Education {
+  int id;
+  String name;
+
+  Education(this.id, this.name);
+  static List<Education> getCompanies() {
+    return <Education>[
+
+      Education(1, 'BE'),
+      Education(2, 'ME'),
+      Education(3, 'MCA'),
+      Education(4, 'BCA'),
+    ];
+  }
+}
+class Income {
+  int id;
+  String slot;
+
+  Income(this.id, this.slot);
+  static List<Income> getCompanies() {
+    return <Income>[
+
+      Income(1, '<1000'),
+      Income(2, '<5000'),
+      Income(3, '<10000'),
+
+    ];
+  }
+}
