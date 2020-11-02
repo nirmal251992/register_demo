@@ -12,10 +12,12 @@ abstract class ThemeText {
 abstract class Decor {
   static const InputDecoration decorText = InputDecoration(
 
+
     enabledBorder: OutlineInputBorder(
       borderSide: BorderSide(color: Colors.grey),
     ),
     hintStyle: TextStyle(color: Colors.grey),
+
     labelStyle: TextStyle(color: Colors.grey),
     focusedBorder: OutlineInputBorder(
       borderSide: BorderSide(color: Colors.grey),
